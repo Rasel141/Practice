@@ -1,0 +1,276 @@
+ @import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans|Roboto');
+ *{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  font-family: 'Lora', serif;
+	font-size: 14px;
+	line-height: 16px;
+	color: #000;
+  background: url(image/101bubble2.gif) fixed;
+}
+.templete{
+  width: 960px;
+  margin: 0 auto; /*top,bottom 0 and both side same*/
+}
+.clear{
+  overflow: hidden; /*fix div overflow*/
+}
+.headersection {
+	background-color: rgb(50, 66, 46);
+	color: #fff;
+}
+.logo{
+  width: 500px;
+  float: left;
+
+}
+.logo img {
+	width: 71px;
+	float: left;
+	padding: 10px;
+}
+.logo h2 {
+	padding: 5px;
+	margin-top: 10px;
+	font-size: 30px;
+  color: #fff;
+	text-shadow: 2px 2px 0px rgb(227, 238, 250);
+}
+.social img {
+	width: 43px;
+	float: right;
+	padding: 8px;
+}
+.social{
+  width: 300px;
+  float: right;
+
+}
+.social img {
+	width: 43px;
+	float: right;
+	padding: 8px;
+}
+.social{
+
+}
+.navsection {
+	background-color: rgb(228, 176, 76);
+}
+.navsection ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+.navsection ul li {
+	float: left;
+	display: block;
+  margin: 5px;
+	padding: 5px;
+
+}
+.navsection ul li a {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	border: 1px solid rgb(191, 158, 96);
+}
+.navsection ul li a:hover, #active{
+background-color: rgb(50, 66, 46);
+  color: #fff;
+}
+
+.slidersection {
+	box-shadow: 5px 5px 5px 0px rgb(50, 66, 46);
+	margin-bottom: 10px;
+}
+
+.contentsection{
+  background: #fff;
+
+}
+.maincontent {
+	background-color: rgb(172, 172, 117);
+	width: 587px;
+	float: left;
+	padding: 10px;
+	border: 1px solid #333;
+	margin: 0px 10px 0px 0px;
+}
+
+.about {
+}
+
+.about img {
+	width: 176px;
+	margin: 10px 10px 10px 0px;
+	float: left;
+}
+.about p {
+	text-align: justify;
+	font-size: 15px;
+	margin-bottom: 10px;
+	line-height: 18px;
+}
+input[type="text"], input[type="email"] {
+	width: 370px;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+textarea {
+	width: 378px;
+	height: 118px;
+	padding: 5px;
+	border-radius: 5px;
+}
+input[type="submit"] {
+	width: 125px;
+	height: 35px;
+	cursor: pointer;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	background: rgb(228, 176, 76);
+	border: 1px solid aliceblue;
+
+}
+input[type="submit"]:hover{
+  background:rgb(50, 66, 46);rgb(50, 66, 46)
+}
+
+.samepost ,   {
+display: block;
+padding: 5px;
+margin: 5px;
+border: 2px solid #fff;
+}
+.samepost h2, .about h2 {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+.samepost img {
+	float: left;
+	background: #fff;
+	padding: 5px;
+	margin-right: 5px;
+	border: 2px solid #000;
+	width: 150px;
+}
+.samepost p{
+  text-align: justify;
+  line-height: 18px;
+
+}
+.readmore {
+	float: right;
+	display: block;
+	padding: 5px;
+  margin-top: 10px;
+}
+.readmore a{
+  text-decoration: none;
+  background: #fff;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+
+}
+.readmore a:hover{
+  color: red;
+}
+
+
+
+.sidebar {
+	background-color: rgb(172, 172, 117);
+	width: 309px;
+	float: right;
+	margin: 0px 0px 10px 10px;
+	padding: 10px;
+	border: 1px solid #000;
+}
+.samesidebar {
+	margin-bottom: 10px;
+}
+.samesidebar ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+.samesidebar ul li {
+	padding: 5px 5px;
+	border-bottom: 1px dashed black;
+	padding-left: 0px;
+}
+.samesidebar ul li:last-child {
+	border-bottom: 0px dashed black;
+}
+.samesidebar ul li a {
+	text-decoration: none;
+}
+.samesidebar ul li a:hover{
+  color: red;
+}
+.samesidebar h2 {
+	background: rgb(228, 176, 76);
+	color: #fff;
+	padding: 10px;
+	margin-bottom: 8px;
+	text-align: center;
+	border: 4px solid rgb(228, 132, 76);
+	border-radius: 5px;
+}
+.samesidebar p {
+	margin-bottom: 6px;
+}
+.footersection{
+  height: 90px;
+  background-color: rgb(50, 66, 46);
+
+}
+.footersection p{
+  text-align: center;
+
+}
+.footermenu{
+  text-align: center;
+
+}
+.footermenu ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 18px;
+	padding: 5px;
+}
+.footermenu ul li {
+	display: inline-block;
+	margin-top: 10px;
+}
+.footermenu ul li a {
+	color: yellow;
+	text-decoration: none;
+	margin-right: 10px;
+}
+.fixedicon{
+  position: fixed;
+  left: 0;
+  top: 180px;
+  width: 50px;
+
+
+}
+.fixedicon img{
+  width: 50px;
+}
